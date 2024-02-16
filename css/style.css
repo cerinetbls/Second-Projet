@@ -30,6 +30,74 @@ a {
     text-decoration: none;
 }
 
+
+nav {
+    display:flex;
+    flex-direction: row;  
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+  margin-left: 50px;
+
+}
+ .menu:active {
+    text-decoration-line: overline;
+    text-decoration-color: #0065FC;
+    color: #0065FC;
+}
+
+.logo-booki {
+    width: 70px;
+    height: auto;
+    
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+.first-paragraph{
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.search-bar {
+    display: flex; 
+    border-radius: 15px; 
+    overflow: hidden;
+    width: 340px; 
+}
+
+i {
+    max-height: 100%;
+    padding: 18px;
+    background-color: #F2F2F2;
+}
+
+input {
+    flex: auto;
+    border: none;
+    font-size: 17px;
+    text-align: center; 
+    font-weight: 700;
+    width: 120px;
+    color:black;
+}
+
+
+button {
+    background-color: #0065FC; 
+    color: white; 
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 15px;
+    font-weight: 500;
+    width: 120px;
+}
+
 .section-title {
     margin: 0;
     font-size: 22px;
@@ -120,6 +188,7 @@ a {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
+
 
 
 
