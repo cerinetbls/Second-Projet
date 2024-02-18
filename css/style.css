@@ -30,7 +30,12 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
 
+/****** Header ***********/
 nav {
     display:flex;
     flex-direction: row;  
@@ -58,34 +63,31 @@ header {
     margin-bottom: 50px;
 }
 
-.first-paragraph{
-    font-size: 14px;
-    padding-bottom: 10px;
-}
+
+/****** Search bar ***********/
 
 .search-bar {
     display: flex; 
     border-radius: 15px; 
     overflow: hidden;
-    width: 340px; 
+    width: 345px;   
 }
 
-i {
-    max-height: 100%;
-    padding: 18px;
+.fa-solid.fa-location-dot {
+    
+    padding: 16px 18px;
     background-color: #F2F2F2;
-}
+     }
 
 input {
     flex: auto;
-    border: none;
     font-size: 17px;
     text-align: center; 
     font-weight: 700;
     width: 120px;
     color:black;
+    border: 1px solid #f2f2f2;
 }
-
 
 button {
     background-color: #0065FC; 
@@ -97,7 +99,65 @@ button {
     font-weight: 500;
     width: 120px;
 }
+ /****** Filter bar ***********/
 
+.filter-bar {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .filter-title {
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+  }
+  .filter-option {
+    margin-left: 10px;
+    cursor: pointer;
+    position: relative;
+    
+  }
+  
+  .filter-option span {
+    background-color: #fff; 
+    color: #000; 
+    padding: 10px 16px;
+    border-radius: 25px;
+    border: 2px solid #D9D9D9; 
+    transition: background-color 0.3s;
+    font-weight: 600;
+    display: flex; 
+    align-items: center;
+    font-size: 15px;
+}
+
+.filter-option i {
+    margin-right: 10px; 
+}
+  
+  .filter-option:hover span {
+    background-color: #DEEBFF; 
+  }
+  
+  /****** Info bar ***********/
+
+  .fa-solid.fa-info {
+    background-color: #fff; 
+    padding: 4px 7px;
+    border-radius: 25px;
+    border: 1px solid #D9D9D9;
+    font-size: 10px;
+  }
+
+  .info {
+    font-size: 14px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+  }
+
+ 
 .section-title {
     margin: 0;
     font-size: 22px;
