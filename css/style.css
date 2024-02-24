@@ -13,6 +13,8 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 .main-container {
     width: 100%;
@@ -43,6 +45,7 @@ nav {
 .logo-booki {
     width: 75px;
     height: auto;
+    margin-top: 33px;
    
 }
 header {
@@ -292,6 +295,38 @@ button {
 .activités-card .card-title {
 margin: 20px;
 }
+
+
+/******Footer***********/
+
+.footer {
+    background-color: var(--main-bg-color);
+    width: 100%;
+    bottom: 0;
+    margin-top: 50px;
+}
+
+.footer-section {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 0 10px 0 20px;
+}
+
+.footer .footer-title {
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
